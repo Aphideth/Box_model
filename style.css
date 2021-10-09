@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+/*second li selector*/
+li:nth-child(2) {
+  background-color: white;
+  list-style-type: none;
+  color: grey;
+}
+
+nav {
+  background: grey;
+  color: white;
+  width: auto;
+}
+
+#title {
+  text-align: center;
+  height: 10vh;
+  line-height: 10vh;
+}
+
+.carousel {
+  padding: 200px;
+  background-color: whitesmoke;
+}
+
+#article {
+  margin-bottom: 10vh;
+}
+
+#articlesection article {
+  background-color: whitesmoke;
+  display: inline-block;
+  width: 30vw;
+  height: 50vh;
+}
+
+form input,
+form textarea {
+  display: block;
+  width: 70vw;
+  margin: auto;
+  margin-top: 2vw;
+}
+
+#contact {
+  border-top: solid black 1px;
+  margin-top: 20vh;
+}
